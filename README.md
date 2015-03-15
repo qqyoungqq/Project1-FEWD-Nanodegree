@@ -12,5 +12,5 @@ The repository includes the following files:
 * **js/bootstrap.js
 * **js/bootstrap.min.js
 * **js/jquery-1.11.2.js
-* **imgae/*
+* **image/*
 * **README.md**
