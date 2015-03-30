@@ -4,6 +4,13 @@
 	font-weight: 300;
 }
 
+.container-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .text-muted {
 	color: #C8C8C8;
 }
@@ -13,20 +20,32 @@
 }
 
 .title-supper {
-	font-size: 66px;
+	font-size: 60px;
 }
 
-.title-logo {
-	margin-top: 20px;
-}
-
-.info-panel {
-	margin-bottom: 20px;
+.biopic {
+	float: left;
+	padding: 3px;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
 }
 
 hr {
-    border: none;
-    height: 2px;
-    background-color: #C8C8C8; 
+	border-color: #C8C8C8;
+	border-style: solid none;
+	border-width: 2px;
+}
+
+@media only screen and (max-width: 990px) {
+	* {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.text-muted {
+		text-align: center;
+	}
+	
+
 }
 

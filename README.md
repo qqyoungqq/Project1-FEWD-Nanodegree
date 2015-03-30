@@ -9,6 +9,10 @@ The repository includes the following files:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the portfolio site.
 * **config.json**
+* **css/normalize.css
+* **css/responsive.css
+* **css/bootstrap.css
+* **css/styles.css
 * **js/bootstrap.js
 * **js/bootstrap.min.js
 * **js/jquery-1.11.2.js

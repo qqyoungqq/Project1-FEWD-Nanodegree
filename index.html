@@ -5,83 +5,95 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- load font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+
+    <!-- load css files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
+	  <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- load js files -->
     <script src="js/jquery-1.11.2.js"></script> 
     <script src="js/bootstrap.min.js"></script>
+
     <title> Project1 of FEWD Nanodegree</title>
   </head>
 
   <body>
     <main class="container">
+
+      <!-- Logo and Header -->
       <header class="row">
-        <logo class="col-md-2 col-sm-2 col-xs-2"><img class="title-logo" src="./image/mylogo.jpg" alt="My Logo"></logo>
+        <logo class="col-md-2 col-sm-2 col-xs-2"><img class="biopic" src="./image/me.JPG" alt="selfie"></logo>
         <info class="col-md-10 col-sm-10 col-xs-10 text-right text-uppercase">
           <h1 class="title-supper text-thin">Qian Yang</h1>
-          <h4>Front-End Web Developer</h4>
+          <h4>Front-End Ninja</h4>
         </info>
       </header>
 
-      <cutline class="row">
+      <!-- Deviding Line -->
+      <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
-      </cutline>
+      </div>
 
-      <imgbk class="row">
+      <imgbk class="containter-fluid">
         <div class="col-md-12">
-          <img src="./image/imagebk.jpg" class="img-responsive" alt="Background Image">
+          <img src="./image/streets.jpg" class="img-responsive" alt="Background Image">
         </div>
       </imgbk>
 
-      <list class="row">
+      <!-- Featured Work -->
+
+      <list class="container-fluid">
         <div class="col-md-12">
           <h2 class="text-muted">Featured Work</h2>
         </div>
       </list>
 
-      <main1 class="row text-center info-panel">
+      <!-- Three project in a row with modals-->
+      <div class="containter-fluid text-center">
         <pro1 class="col-md-4">
-          <img src="./image/pro1_snapshot.jpg" class="img-responsive center-block" alt="screenshot of project1" data-toggle="modal" data-target="#project1">
-          <h3 class="text-uppercase">Portfolio</h3>
-          <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
+          <img src="./image/macbook.jpg" class="img-responsive center-block" alt="screenshot of project1" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase" href="http://qqyoungqq.github.io/Project1-FEWD-Nanodegree/">Portfolio</h3>
+          <p><a class="text-muted" href="http://qqyoungqq.github.io/Project1-FEWD-Nanodegree/">http://qqyoungqq.github.io/P1/</a></p>
         </pro1>
 
         <pro2 class="col-md-4">
-          <img src="./image/placeholder.jpg" class="img-responsive center-block" alt="screenshot of project2" data-toggle="modal" data-target="#project2">
+          <img src="./image/resume.jpg" class="img-responsive center-block" alt="screenshot of project2" data-toggle="modal" data-target="#project2">
           <h3 class="text-uppercase">Interactive Resume</h3>
-          <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
+          <p><a class="text-muted" href="http://qqyoungqq.github.io/Project2-FEWD-Nanodegree/">http://qqyoungqq.github.io/P2/</a></p>
         </pro2>
 
         <pro3 class="col-md-4">
-          <img src="./image/placeholder.jpg" class="img-responsive center-block" alt="screenshot of project3" data-toggle="modal" data-target="#project3">
+          <img src="./image/minecraft.jpg" class="img-responsive center-block" alt="screenshot of project3" data-toggle="modal" data-target="#project3">
           <h3 class="text-uppercase">Classic Arcade Game</h3>
           <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
         </pro3>
-      </main1>
+      </div>
 
-      <main2 class="row text-center info-panel">
+      <!--<div class="containter-fluid text-center">
         <pro4 class="col-md-4">
-          <img src="./image/placeholder.jpg" class="img-responsive center-block" alt="screenshot of project4" data-toggle="modal" data-target="#project4">
+          <img src="http://placekitten.com/g/2000/300" class="img-responsive center-block" alt="screenshot of project4" data-toggle="modal" data-target="#project4">
           <h3 class="text-uppercase">Website Optimization</h3>
           <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
         </pro4>
 
         <pro5 class="col-md-4">
-          <img src="./image/placeholder.jpg" class="img-responsive center-block" alt="screenshot of project5" data-toggle="modal" data-target="#project5">
+          <img src="http://placekitten.com/g/2000/300" class="img-responsive center-block" alt="screenshot of project5" data-toggle="modal" data-target="#project5">
           <h3 class="text-uppercase">Neighborhood Map</h3>
           <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
         </pro5>
 
         <pro6 class="col-md-4">
-          <img src="./image/placeholder.jpg" class="img-responsive center-block" alt="screenshot of project6" data-toggle="modal" data-target="#project6">
+          <img src="http://placekitten.com/g/2000/300" class="img-responsive center-block" alt="screenshot of project6" data-toggle="modal" data-target="#project6">
           <h3 class="text-uppercase">Feed Reader Testing</h3>
           <p><a class="text-muted" href="https://github.com/qqyoungqq/">https://github.com/qqyoungqq/</a></p>
         </pro6>
-      </main2>
+      </div>-->
     </main>
 
 <!-- Modal -->
@@ -92,8 +104,8 @@
             <h4 class="modal-title">Portfolio</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="./image/pro1_snapshot_brs.png" alt="screenshot of project1">
-            This website is written in HTML and CSS to mimic a given desgin mockup. The website is buildup on the Twitter's Bootstrap framework.  It is designed responsively to display images, descriptions and links to each of the portfolio projects I complete throughout the course of the Front-End Web Developer Nanodegree.
+            <img class="img-responsive" src="./image/p1.png" alt="screenshot of project1">
+            This website is written in HTML and CSS to mimic a given desgin mockup. The website is buildup on the Twitter's Bootstrap framework.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -109,8 +121,8 @@
             <h4 class="modal-title">Interactive Resume</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="./image/placeholder.jpg" alt="screenshot of project2">
-            Project description is coming...
+            <img class="img-responsive" src="./image/p2.png" alt="screenshot of project2">
+            This interactive resume is build by JavaScript that combing my personal information (JSON) with HTML and CSS templates.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
