@@ -4,6 +4,15 @@
 	font-weight: 300;
 }
 
+.col-md-4 {
+	margin-top: 30px;
+}
+
+.head {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
@@ -13,39 +22,33 @@
 
 .text-muted {
 	color: #C8C8C8;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.text-thin {
+.name-text {
 	font-weight: 100;
+	font-size: 30px;
 }
 
-.title-supper {
-	font-size: 60px;
-}
-
-.biopic {
-	float: left;
-	padding: 3px;
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
+.portfolio-super {
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
 }
 
 hr {
-	border-color: #C8C8C8;
+	border-color: black;
 	border-style: solid none;
 	border-width: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 990px) {
-	* {
-		margin-left: auto;
-		margin-right: auto;
+@media only screen and (max-width: 500px) {
+	.name-text {
+		font-weight: 100;
+		font-size: 20px;
 	}
-	.text-muted {
-		text-align: center;
-	}
-	
-
 }
 
